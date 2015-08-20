@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">App Ciclo de Vida</string>
+    <string name="btnActivity">Activity</string>
+    <string name="btnAlert">Alert Dialog</string>
+    <string name="btnItems">Items</string>
+    <string name="btnRadio">Radio</string>
+    <string name="btnCheck">Check</string>
+    <string name="btnDialog">Dialog</string>
+    <string name="btnDatePicker">Date Picker Dialog</string>
+    <string name="btnTimePicker">Time Picker Dialog</string>
+
+    <string-array name="listaOpcoes">
+        <item>Opção 1</item>
+        <item>Opção 2</item>
+        <item>Opção 3</item>
+        <item>Opção 4</item>
+    </string-array>
+    <string name="title_activity_slave">App Ciclo de Vida</string>
+    <string name="btnAdicionar">Adicionar</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="textoDialogo">Texto do Diálogo!</string>
+    <string name="action_settings">Configuração</string>
+</resources>

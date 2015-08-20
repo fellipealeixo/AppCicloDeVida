@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnActivity"
+        android:onClick="btnActivityClick"
+        android:id="@+id/btnActivity" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAlert"
+        android:onClick="btnAlertClick"
+        android:id="@+id/btnAlert" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnItems"
+        android:onClick="btnItemsClick"
+        android:id="@+id/btnItems" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRadio"
+        android:onClick="btnRadioClick"
+        android:id="@+id/btnRadio" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCheck"
+        android:onClick="btnCheckClick"
+        android:id="@+id/btnCheck" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDialog"
+        android:onClick="btnDialogClick"
+        android:id="@+id/btnDialog" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDatePicker"
+        android:onClick="btnDatePickerClick"
+        android:id="@+id/btnDatePicker" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTimePicker"
+        android:onClick="btnTimePickerClick"
+        android:id="@+id/btnTimePicker" />
+</LinearLayout>
